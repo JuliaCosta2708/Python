@@ -1,0 +1,11 @@
+# Solicita o salário atual ao usuário
+salario_atual = float(input("Digite o salário atual: "))
+
+# Calcula a comissão (5% do salário atual)
+comissao = salario_atual * (5/100)
+
+# Calcula o novo salário (salário atual acrescido de comissão)
+novo_salario = salario_atual + comissao
+
+# Mostra o novo salário
+print("O novo salário, com 5% de comissão, é:", novo_salario)
